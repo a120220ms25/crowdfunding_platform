@@ -1,0 +1,82 @@
+body{
+  font-family: 'Noto Sans TC', sans-serif,'Baloo Tammudu 2';
+
+}
+
+
+.bg-lightgray {
+  background-color: #F7F7F7;
+}
+
+.fs-18{
+  font-size: 18px;
+  }
+
+.fs-7{
+font-size: 14px;
+}
+.fs-8{
+  font-size: 12px;
+}
+.mt-20{
+  margin-top:20px;
+}
+.me-20{
+  margin-right: 20px;
+}
+.lh-xl{
+  line-height: 56px;
+}
+.rounded-4{
+  border-radius: 8px;
+}
+.rounded-5{
+  border-radius: 2rem;
+}
+.lightgray{
+  color: #E8E8DB;
+}
+// 在btn裡面的 追蹤專案 顏色
+.gray{
+  color: #858377;
+}
+.white100{
+  color: #E5E5E5;
+}
+.white200{
+  color:#F8F9FA ;
+}
+// 小字 贊助人數
+.gray200{
+  color:#636057;
+}
+// form表單中小字 贊助方案 收寄人姓名
+.gray300{
+  color: #373A3C;
+}
+.gray400{
+  color:#494846;
+}
+.btn-outline-gray:hover {
+  color:#858377;
+background-color: #fff;
+}
+  
+.bg-hover-secondary:hover{
+  background-color: #FF785E;
+  border: 1px solid  #FF785E;
+  color: white !important;
+}
+.bg-hover-primary:hover{
+  background-color:#FFDF65;
+  color: #858377 ;
+  border: 1px solid #FFDF65 ;
+}
+
+.bg-hover-primary:hover > i  {
+  color: #FF785E;
+}
+
+#productContent ul .nav-link.active {
+  border-bottom: 2px solid #FFDF65;
+}

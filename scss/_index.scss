@@ -1,0 +1,99 @@
+// modal
+form.d-flex {
+  margin-left: 48px;
+}
+.modal-header{
+  border-top: 4px solid #FFDF65;
+}
+.modal-footer span{
+  color:#FF785E;
+}
+
+.middleNav{
+  @media(min-width:992px) {
+     font-size: 16px !important;
+  }
+}
+.fs-lg-6{
+  @media(min-width:992px) {
+     font-size: 16px !important;
+  }
+}
+.productIcon{
+  @media(min-width:992px) {
+    width: 24px !important; 
+    height: 24px !important;
+ }
+}
+.sponserTxt{
+  @media(min-width:992px) {
+    font-size: 16px !important; 
+    margin: 16px 0px;
+ 
+ }
+ .sponserBtn{
+  @media(min-width:992px) {
+    font-size: 20px !important; 
+ 
+ }
+ }
+ .copyright{
+  @media(min-width:992px) {
+font-size: 16px;
+ }
+}
+.fs-18{
+  font-style: 18px;
+}
+}
+.middleNav.active{
+  border-bottom: 1px solid $primary;
+  font-weight: bold;
+
+}
+
+.formBtn{
+  text-align: center;
+}
+
+.grayCircle{
+  width: 30px;
+  height: 30px;
+  background-color: #858377;
+}
+
+.product_desc{
+  letter-spacing: 0.7px;
+}
+
+.product-radius{
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.rounded-bottom {
+  border-bottom-right-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+}
+
+footer{
+  height: 88px;
+  line-height: 88px;
+}
+
+.accordion-item {
+  box-shadow: 0 0 8px 0 rgba(73,72,70,0.15);
+}
+
+.accordion-body p {
+  letter-spacing: 0.7px;
+  text-align: left;
+  line-height: 27px;
+}
+
+.CardImage{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
