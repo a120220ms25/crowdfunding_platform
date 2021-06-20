@@ -8,7 +8,7 @@ body{
   background-color: #F7F7F7;
 }
 
-.fs-18{
+.fs-medium{
   font-size: 18px;
   }
 
@@ -75,6 +75,9 @@ background-color: #fff;
 
 .bg-hover-primary:hover > i  {
   color: #FF785E;
+}
+.copyright a:hover{
+  color: #FF785E !important;
 }
 
 #productContent ul .nav-link.active {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,6 +21,7 @@
       <div class="container">
         <!-- logo -->
         <a class="navbar-brand" href="#"><img src="https://hexschool.github.io/boootstrap5WebLayout/assets/logo.jpg" alt="logo" width="111px" height="40px"></a>
+        <!-- 漢堡選單 -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,11 +38,11 @@
               <a class="nav-link ms-7 text-gray" href="#" >我有個大膽的想法</a>
             </li>
           </ul>
-          <form class="d-flex">
-             <!-- Button login -->
+           <!-- Button login -->
+          <div class="d-flex">   
             <button class="btn btn-primary text-gray200 btn-outline-primary rounded-pill px-5 fw-bold" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">登入</button>
             <button class="btn btn-outline-gray text-gray ms-3 rounded-pill px-5 fw-bold" type="submit">註冊</button>
-          </form>
+          </div>
         </div>
       </div>
     </nav>
@@ -61,7 +62,7 @@
            <!-- 右邊募資金額區塊 -->
            <div class="col-lg-5 mb-5">
              <small>目標 $600,000</small>
-             <div class="fs-2 lh-xl">$280,047</div>
+             <span class="fs-2 lh-xl d-block">$280,047</span>
              <div class="progress rounded-pill">
               <div class="progress-bar " role="progressbar" style="width: 41%;" >41%</div>
                </div>
@@ -79,25 +80,30 @@
                   </div>
                 </div>
                 <!-- 四個icon區域 -->
-                <div class="col-12 mb-3 ">
-                  <img  src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good01.svg" width="20" height="20" class="productIcon d-inline-block me-1 me-lg-4 " data-bs-toggle="tooltip" data-bs-placement="top" title="認 證 標 章" >
-                  <span class="d-inline-block me-3 d-lg-none fs-8">認證標章</span>
-
-                  <img  src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good02.svg" width="20" height="20" class="productIcon d-inline-block  me-1 me-lg-4" data-bs-toggle="tooltip" data-bs-placement="top" title="品 質 保 證">
-                  <span class="d-inline-block d-lg-none  me-3 fs-8">品質保證</span>
-
-                  <img  src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good03.svg" width="20" height="20" class="productIcon d-inline-block  me-1 me-lg-4"  data-bs-toggle="tooltip" data-bs-placement="top" title="原 生 創 意">
-                  <span class="d-inline-block d-lg-none me-3 fs-8">原生創意</span>
-
-                  <img  src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good04.svg" width="20" height="20" class="productIcon me-1 me-lg-4" data-bs-toggle="tooltip" data-bs-placement="top" title="人 氣 王">
-                  <span class="d-inline-block d-lg-none  fs-8">人氣王</span>
-                </div>
+                <ul  iv class="col-12 mb-3 ">
+                  <li class="d-inline-block">
+                    <img  src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good01.svg" width="20" height="20" class="productIcon d-inline-block me-1 me-lg-4 " data-bs-toggle="tooltip" data-bs-placement="top" title="認 證 標 章" >
+                    <span class="d-inline-block me-3 d-lg-none fs-8">認證標章</span>
+                  </li>
+                  <li class="d-inline-block">
+                    <img  src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good02.svg" width="20" height="20" class="productIcon d-inline-block  me-1 me-lg-4" data-bs-toggle="tooltip" data-bs-placement="top" title="品 質 保 證">
+                    <span class="d-inline-block d-lg-none  me-3 fs-8">品質保證</span>
+                  </li>
+                  <li class="d-inline-block">
+                    <img  src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good03.svg" width="20" height="20" class="productIcon d-inline-block  me-1 me-lg-4"  data-bs-toggle="tooltip" data-bs-placement="top" title="原 生 創 意">
+                    <span class="d-inline-block d-lg-none me-3 fs-8">原生創意</span>
+                  </li>
+                  <li class="d-inline-block">
+                    <img  src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good04.svg" width="20" height="20" class="productIcon me-1 me-lg-4" data-bs-toggle="tooltip" data-bs-placement="top" title="人 氣 王">
+                    <span class="d-inline-block d-lg-none  fs-8">人氣王</span>
+                  </li>  
+                </ul>
                 <div class="col-12 bg-white  mb-3 mb-lg-4">
                   <p class="sponserTxt d-inline-block fs-7 py-2 border-start border-primary border-3 ps-3">專案募資中！<br>
                     在&nbsp;&nbsp; 2021/06/14 &nbsp;&nbsp;23:59&nbsp;&nbsp; 募資結束前，您都可以贊助我們！</p>
                 </div> 
                 <div class="col-12 mb-2">
-                  <div class="bg-hover-secondary sponserBtn btn btn-primary w-100 rounded-pill fs-18">贊助專案</div>
+                  <div class="bg-hover-secondary sponserBtn btn btn-primary w-100 rounded-pill fs-medium">贊助專案</div>
                 </div>
                 <div class="col-12">
                   <div class="row justify-content-betweens">
@@ -155,7 +161,7 @@
                   <div class="accordion-item mb-3 border border-1 border-white100 rounded-2">
                     <h2 class="accordion-header " id="headingOne">
                       <button class="accordion-button text-gray400 bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                        <span class="fs-7 d-inline-block text-gray bg-primary me-3 p-1 rounded-2 fw-bold">Q1</span>影片拍完之後可以編輯嗎？
+                        <span class=" d-inline-block text-gray bg-primary me-3 p-1 rounded-2 fw-bold fs-7">Q1</span>影片拍完之後可以編輯嗎？
                       </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse"  data-bs-parent="#accordionExample">
@@ -258,7 +264,7 @@
                 <div class="card mb-3 ">
                   <div class="row g-0 ">
                     <div class="col-md-4">
-                      <img class="CardImage w-100  " src="https://hexschool.github.io/boootstrap5WebLayout/assets/news02.jpg" alt="card image">
+                      <img class="CardImage w-100" src="https://hexschool.github.io/boootstrap5WebLayout/assets/news02.jpg" alt="card image">
                     </div>
                     <div class="col-md-8 p-3">
                       <div class="card-body">
@@ -273,7 +279,7 @@
                 <div class="card mb-3 ">
                   <div class="row g-0 ">
                     <div class="col-md-4">
-                      <img class="CardImage w-100  " src="https://hexschool.github.io/boootstrap5WebLayout/assets/news03.jpg" alt="card image">
+                      <img class="CardImage w-100" src="https://hexschool.github.io/boootstrap5WebLayout/assets/news03.jpg" alt="card image">
                     </div>
                     <div class="col-md-8 p-3">
                       <div class="card-body">
@@ -424,7 +430,7 @@
                <!-- 團購優惠區塊 -->
                <div class="d-flex flex-wrap mb-3">
                    <!-- <div class="col-12 border border-danger"> -->
-                     <img class="img-fluid product-radius" src="https://hexschool.github.io/boootstrap5WebLayout/assets/plan_img.jpg" alt="">
+                     <img class="img-fluid product-radius" src="https://hexschool.github.io/boootstrap5WebLayout/assets/plan_img.jpg" alt="Group discount">
                     <!-- </div>  -->
                     <div class="product-body border border-lightgray rounded-bottom">
                         <div class="d-flex justify-content-between borer border-bottom border-lightgray mx-md-3 ">
@@ -432,7 +438,7 @@
                         <span class="my-2 fs-7 text-gray200">2 days 20:05:20</span>
                         </div>
                         <div class="mx-3">
-                           <h3 class="fs-18 mt-1">買一送一，只有兩百組別錯過</h3>
+                           <h3 class="fs-medium mt-1">買一送一，只有兩百組別錯過</h3>
                            <div class="fs-6 fw-bolder">NT$ 1600</div>
                            <span class="border border-lightgray text-gray bg-lightgray px-2 rounded-2 fs-8 my-1 me-sm-1 ">已被贊助88次</span>
                            <span class="fs-8 px-3 border border-gray bg-gray text-white rounded-2">限量<span class="text-primary">200</span>個</span>
@@ -443,7 +449,7 @@
                </div>
                <div class="d-flex flex-wrap mb-3">
                 <!-- <div class="col-12 border border-danger"> -->
-                  <img class="img-fluid product-radius" src="https://hexschool.github.io/boootstrap5WebLayout/assets/plan_img.jpg" alt="">
+                  <img class="w-100 product-radius" src="https://hexschool.github.io/boootstrap5WebLayout/assets/plan_img.jpg" alt="Group discount">
                  <!-- </div>  -->
                  <div class="product-body border border-lightgray rounded-bottom">
                      <div class="d-flex justify-content-between borer border-bottom border-lightgray mx-md-3 ">
@@ -451,7 +457,7 @@
                      <span class="my-2 fs-7 text-gray200">2 days 20:05:20</span>
                      </div>
                      <div class="mx-3">
-                        <h3 class="fs-18 mt-1">買一送一，只有兩百組別錯過</h3>
+                        <h3 class="fs-medium mt-1">買一送一，只有兩百組別錯過</h3>
                         <div class="fs-6 fw-bolder">NT$ 1600</div>
                         <span class="border border-lightgray text-gray bg-lightgray px-2 rounded-2 fs-8 my-1 me-sm-1 ">已被贊助88次</span>
                         <span class="fs-8 px-3 border border-gray bg-gray text-white rounded-2">限量<span class="text-primary">200</span>個</span>
@@ -462,7 +468,7 @@
             </div>
             <div class="d-flex flex-wrap mb-3">
               <!-- <div class="col-12 border border-danger"> -->
-                <img class="img-fluid product-radius" src="https://hexschool.github.io/boootstrap5WebLayout/assets/plan_img.jpg" alt="">
+                <img class="img-fluid  product-radius" src="https://hexschool.github.io/boootstrap5WebLayout/assets/plan_img.jpg" alt="Group discount">
                <!-- </div>  -->
                <div class="product-body border border-lightgray rounded-bottom">
                    <div class="d-flex justify-content-between borer border-bottom border-lightgray mx-md-3 ">
@@ -470,7 +476,7 @@
                    <span class="my-2 fs-7 text-gray200">2 days 20:05:20</span>
                    </div>
                    <div class="mx-3 mb-3">
-                      <h3 class="fs-18 mt-1">買一送一，只有兩百組別錯過</h3>
+                      <h3 class="fs-medium mt-1">買一送一，只有兩百組別錯過</h3>
                       <div class="fs-6 fw-bolder">NT$ 1600</div>
                       <span class="border border-lightgray text-gray bg-lightgray px-2 rounded-2 fs-8 my-1 me-sm-1 ">已被贊助88次</span>
                       <span class="fs-8 px-3 border border-gray bg-gray text-white rounded-2">限量<span class="text-primary">200</span>個</span>
@@ -535,7 +541,7 @@
 
 <!-- footer -->
 <footer class="bg-gray400 text-white ">
-  <div class="copyright text-center fs-8">Copyright © 拚拚 All rights reserved. | <a href="https://github.com/a120220ms25" class="text-primary">Sabrina Chen 切版練習</a></div>
+  <div class="copyright text-center fs-8">Copyright © 拚拚 All rights reserved. | <a href="https://github.com/a120220ms25/crowdfunding_platform" class="text-primary">Sabrina Chen 切版練習</a></div>
 </footer>
 
 
