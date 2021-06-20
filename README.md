@@ -32,7 +32,7 @@ https://a120220ms25.github.io/crowdfunding_platform/
 ### 手機版面
 ![image](https://github.com/a120220ms25/crowdfunding_platform/blob/main/phone.jpg)
 
-### 筆記
+### 筆記連結
 
 * [Bootstrap5、RWD](https://hackmd.io/@Sabrinaaaaaa/Byk9lyAYO)
 * [Bootstrap5:格線、元件](https://hackmd.io/@Sabrinaaaaaa/S1HLY6t9d)
