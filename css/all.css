@@ -14160,8 +14160,7 @@ form.d-flex {
 }
 
 footer {
-  height: 88px;
-  line-height: 88px;
+  padding: 50px 10px;
 }
 
 .accordion-item {
@@ -14184,7 +14183,7 @@ footer {
 
 ol,
 ul {
-  padding-left: 0px;
+  padding-left: 0px !important;
 }
 
 #product-process {
